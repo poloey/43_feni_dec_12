@@ -87,6 +87,16 @@ APP_NAME=SRK
 // whenever we change something inside .env file we have to restart server
 ~~~
 
+## migration 
+~~~php
+php artisan make:migration create_cities_table
+~~~
+
+### model + migration 
+~~~php
+php aritsan make:model City -m
+# here m flag for make migration
+~~~
 
 
 
